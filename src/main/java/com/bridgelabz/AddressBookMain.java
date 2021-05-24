@@ -5,7 +5,7 @@ import java.util.*;
 public class AddressBookMain {
     Scanner sc = new Scanner(System.in);
     AddressBookJSONService addressBookJsonService;
-    private List<Contact> addressList = new LinkedList<Contact>();
+    private List<Contact> addressList = new ArrayList<Contact>();
     HashMap<String, List<Contact>> addressBookMap = new HashMap<String, List<Contact>>();
    // Map to store multiple address books to satisfy condition of unique name
     HashMap<Contact, String> personCityMap = new HashMap<Contact, String>();
